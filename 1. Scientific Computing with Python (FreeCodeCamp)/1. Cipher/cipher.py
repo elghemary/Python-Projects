@@ -1,5 +1,5 @@
 text = 'Hello Zaira'
-shift = 3
+shift = 13 #change the steps here
 
 def caesar(message, offset):
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
@@ -16,4 +16,4 @@ def caesar(message, offset):
     print('encrypted text:', encrypted_text)
 
 caesar(text, shift)
-caesar(text, 13)
+
